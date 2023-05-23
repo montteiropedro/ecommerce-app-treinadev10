@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "name": "Galpão Rio",
+  "code": "SDU",
+  "description": "Galpão do Rio de Janeiro",
+  "cep": "20100-000",
+  "address": "Avenida do Museu do Amanhã, 1000",
+  "city": "Rio de Janeiro",
+  "area": 60000
+}

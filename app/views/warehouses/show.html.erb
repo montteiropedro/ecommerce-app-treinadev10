@@ -1,0 +1,15 @@
+<section>
+  <h1><%= @warehouse.name %> - <%= @warehouse.code %></h1>
+  <span><%= @warehouse.description %></span>
+
+  <dl>
+    <dt><strong>Área:</strong></dt>
+    <dd><%= number_with_delimiter(@warehouse.area, delimiter: '.') %> m²</dd>
+
+    <dt><strong>CEP:</strong></dt>
+    <dd><%= @warehouse.cep %></dd>
+
+    <dt><strong>Endereço:</strong></dt>
+    <dd><%= @warehouse.address %>, <%= @warehouse.city %></dd>
+  </dl>
+</section>

@@ -1,0 +1,13 @@
+<section>
+  <h1>E-Commerce App</h1>
+  
+  <% if @warehouses.present? %>
+    <% @warehouses.each do |warehouse| %>
+      <p>
+        <%= link_to "#{warehouse.name} - #{warehouse.code}", warehouse_path(warehouse.id) %>
+      </p>
+    <% end %>
+  <% else %>
+    <p>Nenhum galpão encontrado.</p>
+  <% end %>
+</section>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Galpão Rio",
+    "code": "SDU",
+    "description": "Galpão do Rio de Janeiro",
+    "cep": "20100-000",
+    "address": "Avenida do Museu do Amanhã, 1000",
+    "city": "Rio de Janeiro",
+    "area": 60000
+  },
+  {
+    "id": 2,
+    "name": "Galpão Maceio",
+    "code": "MCZ",
+    "description": "Galpão de Maceio",
+    "cep": "80000-000",
+    "address": "Avenida Atlantica, 50",
+    "city": "Maceio",
+    "area": 50000
+  }
+]
